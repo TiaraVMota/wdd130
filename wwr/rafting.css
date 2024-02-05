@@ -57,6 +57,7 @@ article img {
     height: auto;
     bottom: 500px;
     right: 13%;
+    display: block;
 }
 
 article p {
