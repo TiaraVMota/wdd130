@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+:root {
+    --primary-color: #1A759F;
+    --secondary-color: #168AAD;
+    --accent1-color: #99D98C;
+    --accent2-color: #76C893;
+
+    --heading-font: #184E77, serif;
+    --paragraph-font: #184E77, serif;
+
+    --nav-background-color: #34A0A4;
+    --nav-link-color: #184E77;
+    --nav-hover-link-color: #184E77;
+    --nav-hover-background-color: #34A0A4;
+}
+
+body{
+    font-family: "Black Ops One";
+    color: #184E77;
+    max-width: 960px;
+    padding: 20px;
+}
+
+a{
+    color: #1A759F;
+    text-decoration: none;
+}
+
+p{
+    color: #76C893;
+}
+
+.hero img{
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    width: 10;
+    right: 50%;
+    top: 40%;
+    color: #bfe0b8;
+    background-color:  #bee0b81f;
+    padding: auto;
+}
+
+h2 {
+    position: relative;
+}
+article img {
+    position: absolute;
+    float: right;
+    width: 150px;
+    height: auto;
+    bottom: 500px;
+    right: 13%;
+}
+
+article p {
+    color: #bfe0b8;
+    background-color: #bee0b81f;
+    position: absolute;
+    border: #bfe0b8 solid 1px ;
+    margin: 0px;
+    padding-right: 160px;
+    bottom: 135px;
+    left:100px;
+    height: 130px;
+    line-height: 100px;
+}
+
+nav img{
+    float: inline-start;
+    width: 50px;
+    padding-right: 1%;
+}
