@@ -15,14 +15,56 @@
     --nav-hover-background-color: #34A0A4;
 }
 
+header {
+    width: 69.9rem;
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 300px  1fr;
+	align-items: center;
+	border: 1px solid #184E77;
+}
+
+header img {
+    margin-left: 9rem;
+    width: 145px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+header nav a{
+    padding: 5px;
+    border: #184E77 solid 1px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+    background-color: #34a0a463;
+}
+
+
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
 body{
     font-family: "Black Ops One";
     color: #184E77;
     max-width: 960px;
     padding: 20px;
+    align-items: center;
+    margin-left: 5rem;
 }
 
-a{
+a {
     color: #1A759F;
     text-decoration: none;
 }
@@ -32,49 +74,124 @@ p{
 }
 
 .hero img{
+    width: 70rem;
     position: relative;
     display: block;
-    height: auto;
+    height: 32rem;
 }
 
-h1 {
+article img{
     position: absolute;
-    width: 10;
-    right: 50%;
+    float: right;
+    top: 21rem; 
+    width: 11rem;
+    margin-left: 46.5rem;
+    z-index: 4;
+}
+
+article h1 {
+    position: absolute;
+    text-align: center;
+    width: 10rem;
+    margin-left: 0;
     top: 40%;
     color: #bfe0b8;
-    background-color:  #bee0b81f;
-    padding: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.521);
+    inline-size: 68.7rem;  
+}
+
+article p {
+    color: #bfe0b8;
+    background-color: #1a759f93;
+    position: absolute;
+    text-align: left;
+    border: #184E77 solid 1px ;
+    margin: 10px;
+    inline-size: 50rem;
+    bottom: 135px;
+    margin-left: 8rem;
+    height: 130px;
+    line-height: 100px;
+
 }
 
 h2 {
     position: relative;
 }
-article img {
-    position: absolute;
-    float: right;
-    width: 150px;
-    height: auto;
-    bottom: 500px;
-    right: 13%;
-    display: block;
+
+.history {
+    width: 70rem;
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr
+    
 }
 
-article p {
-    color: #bfe0b8;
-    background-color: #bee0b81f;
-    position: absolute;
-    border: #bfe0b8 solid 1px ;
-    margin: 0px;
-    padding-right: 160px;
-    bottom: 135px;
-    left:100px;
-    height: 130px;
-    line-height: 100px;
+div section img, h2 {
+    width: 250px;
+    text-align: center;
+    color: #76C893;
 }
 
-nav img{
-    float: inline-start;
+div h4 {
+    text-align: left;
+    padding: 3rem;
+    color: #184E77;
+    
+}
+
+.adventure {
+    width: 70rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px 1fr 3rem;
+    border: 1px solid #184E77;
+}
+
+main div header {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    grid-template-columns: 70rem;
+    text-align: center;
+    border: none;
+    padding: 2px;
+    color: #76C893;
+    justify-content: center;  
+
+}
+
+main div nav img{
+    width: 180px;
+    height: 90px;
+    padding-left: 1.5rem;
+}
+
+main div p {
+    text-align: center;
+    color: #184E77;
+}
+
+footer {
+    width: 69.9rem;
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 47rem  1fr;
+	border: 1px solid #184E77;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    padding: 1rem;
+}
+
+footer nav img{
     width: 50px;
-    padding-right: 1%;
+    
+}
+
+footer p {
+    padding: 1rem;
+    text-align: end;
 }
