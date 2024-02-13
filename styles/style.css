@@ -63,9 +63,9 @@ main{
     margin: 1rem;
 }
 
-header, .grid, footer{
-    max-width: 840px;
+header, footer, .grid{
     margin: 0 auto;
+    max-width: 840px;
 }
 
 .grid {
