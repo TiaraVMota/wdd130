@@ -47,8 +47,6 @@ header nav a{
     background-color: #34a0a463;
 }
 
-
-
 .logo img {
     margin: 0 0.25rem 0 1rem;
     width: 64px;
@@ -169,6 +167,85 @@ main div nav img{
 main div p {
     text-align: center;
     color: #184E77;
+}
+
+
+
+form {
+    width: 565px;
+    height: 545px;
+    margin: .5rem;
+    padding: 1rem;
+    border: 1px solid #949393;
+    border-radius: .5rem;
+    background-color: #deeeff;
+    display: grid;
+}
+
+main div h5 {
+    font-size: 1rem;
+}
+
+.map {
+    margin: .5rem;
+    align-items: center;
+}
+
+div iframe {
+    width: 500px;
+    height: 385px;
+}
+
+button, select, textarea {
+    font-family: "Black Ops One";
+    color: rgb(59, 59, 59);
+    margin: .5rem;
+}
+
+textarea, input {
+    margin: .5rem;
+    width: 31rem;
+}
+input, select, textarea {
+    padding: .3rem;
+   font-size: 1rem;
+}
+
+label {
+    padding: .5rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: #184E77;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;  
+    margin-left: 12rem;
+}
+
+.employee {
+    width: 70rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    border: 1px solid #184E77;
+}
+
+.employee img {
+    align-items: center;
+    margin-left: 4.5rem;
+}
+
+.checkbox input{
+    width: 20px;
+}
+.container_contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
 }
 
 footer {
