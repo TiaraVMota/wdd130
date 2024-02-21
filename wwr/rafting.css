@@ -259,8 +259,13 @@ button {
 }
 
 .newsletter {
-    margin-left: 15rem;
+    margin-left: 16rem;
     height: 15rem;
+    padding: 1rem;
+    border: 1px solid #949393;
+    border-radius: .5rem;
+    background-color: #deeeff;
+    display: grid;
 }
 
 main button {
