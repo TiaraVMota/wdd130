@@ -258,7 +258,7 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-main form {
+.newsletter {
     margin-left: 15rem;
     height: 15rem;
 }
