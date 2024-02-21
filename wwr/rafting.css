@@ -248,6 +248,35 @@ button {
    
 }
 
+.home_info img {
+    width: 70rem;
+}
+
+.home_book {
+    display: grid;
+    width: 70rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main form {
+    margin-left: 15rem;
+    height: 15rem;
+}
+
+main button {
+    width: 10rem;
+    height: 3rem;
+}
+
+.home_book img {
+    width: 18rem;
+    height: 10rem;
+}
+
+.home_book button {
+    margin-left: 100px;
+}
+
 footer {
     width: 69.9rem;
     margin: 1rem auto;
