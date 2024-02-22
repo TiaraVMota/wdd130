@@ -282,6 +282,98 @@ main button {
     margin-left: 100px;
 }
 
+.trips_principal img{
+    width: 70rem;
+    height: 35rem;
+}
+
+.trips_principal h5 {
+    position: absolute;
+    text-align: center;
+    width: 30rem;
+    margin-left: 0;
+    font-size: 5rem;
+    top: 30%;
+    color: #bfe0b8;
+    padding: 10px;
+    inline-size: 68.7rem; 
+}
+
+.button_now p {
+    width: 60rem;
+    margin-top: 3rem;
+    margin-left: 7rem;
+    font-size: 15px;
+}
+
+.button_now button {
+    margin-left: 20rem;
+    width: 30rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: .5rem;
+    background-color: #168AAD;
+    cursor: pointer;
+}
+
+.know_trips {
+    margin-top: 0;
+    display: grid;
+    width: 70rem;
+    height: 18rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3rem 15rem;
+}
+
+.know_trips h4 {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.know_trips img {
+    width: 20.5rem;
+    height: 10rem;
+}
+
+.know_trips button {
+    margin-left: 7rem;
+    cursor: pointer;
+}
+
+main hr {
+    margin-left: 10rem;
+}
+
+main h3 {
+    font-size: 1.5rem;
+    margin-left: 17rem;
+}
+
+.know_trips2 {
+    margin-left: 10.5rem;
+    display: grid;
+    width: 50rem;
+    height: 18rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 15rem;
+    align-items: center;
+}
+
+.know_trips2 h4 {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.know_trips2 img {
+    width: 20.5rem;
+    height: 10rem;
+}
+
+.know_trips2 button {
+    margin-left: 7rem;
+    cursor: pointer;
+}
+
 footer {
     width: 69.9rem;
     margin: 1rem auto;
